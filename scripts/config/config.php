@@ -1,10 +1,10 @@
 <?php
 //==================DB Connection Parameters=============================================================
 
-    $server = 'db.yottabit.consulting';
-	$username = 'likyta_admin';
-	$password = '7vP4f#D#xsbeDR37';
-	$database = 'likyta_db';
+    $server = 'bitter-violet.dirty-brick-production.svc.pipeops.internal';
+	$username = 'pipeops_user';
+	$password = '3933457f208a36f8ddaf683c5';
+	$database = 'pipeops';
 
 	$link = mysqli_connect($server, $username, $password, $database);
 	
@@ -17,7 +17,7 @@
 		exit();
 	}
 	
-	$connection = new PDO( 'mysql:host=db.yottabit.consulting;dbname=likyta_db', $username, $password );
+	$connection = new PDO( 'mysql:host=bitter-violet.dirty-brick-production.svc.pipeops.internal;dbname=pipeops', $username, $password );
 	
 
 
